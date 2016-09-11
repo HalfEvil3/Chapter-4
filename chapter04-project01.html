@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter 4</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="chapter04-project01.css" />
+
+</head>
+<body>
+	 <table>
+		<caption>September 2016</caption>
+		<thead>
+			<tr>
+				<th>S</th>
+				<th>M</th>
+				<th>T</th>
+				<th>W</th>
+				<th>T</th>
+				<th>F</th>
+				<th>S</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan = 4></td>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td><a href="#link">4</a></td>
+				<td>5</td>
+				<td>6</td>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td><a href="#link">11</a></td>
+				<td id="highlight">12</td>
+				<td>13</td>
+				<td>14</td>
+				<td>15</td>
+				<td>16</td>
+				<td>17</td>
+			</tr>
+			<tr>
+				<td><a href="#link">18</a></td>
+				<td>19</td>
+				<td>20</td>
+				<td>21</td>
+				<td>22</td>
+				<td>23</td>
+				<td>24</td>
+			</tr>
+			<tr>
+				<td><a href="#link">25</a></td>
+				<td>26</td>
+				<td>27</td>
+				<td>28</td>
+				<td>29</td>
+				<td>30</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan = 3 id ="aug"><u>&larr; Aug</u></td>
+				<td></td>
+				<td colspan = 3 id ="oct"><u>Oct &rarr;</u></td>
+			</tr>
+		</tbody>
+	 </table>
+	<form method = "get" action ="http://www.randyconnolly.com/tests/process.php">
+		<fieldset>
+			<legend>Meeting Details</legend>
+			<p>
+				<label>Client Name: </label>
+				<input type = "text" name ="Cname" placeholder = "Enter name"/>
+			</p>
+			<p>
+				<label>First Meeting?: </label>
+				<input type = "checkbox" name ="Fmeet"/>
+			</p>
+			<p>
+				<label>Client Type: </label>
+				<input type = "radio" name ="Ctype" value="School"/>School
+				<input type = "radio" name ="Ctype" value="College"/>College
+				<input type = "radio" name ="Ctype" value="University"/>University
+			</p>
+			<p>
+				<label>Meeting Date: </label>
+				<input type = "date" name ="MDate"/>
+			</p>
+			<input type="submit"/>
+		</fieldset>
+	
+	</form>
+	
+	
+	
+	
+</body>
+</html>

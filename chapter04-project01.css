@@ -1,0 +1,49 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+}
+table {
+	margin: 0 auto; 
+	margin-top: 2%;
+	text-align:center;
+	border-collapse: collapse;
+	background-color:#f0f5f5;
+}
+caption{
+	background-color: #008040;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+th{
+	border: solid 2pt white;
+	padding: 5pt;
+}
+td{
+	border: solid 2pt white;
+	padding: 10pt;
+}
+#highlight{
+	background-color:#007399;
+	color: white;
+}
+#aug{
+	text-align:left;
+}
+#oct{
+	text-align:right;
+}
+form{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10%;
+	background-color: #ffcc99;
+	padding: 8px;
+}
+p{
+	padding:10px;
+}
